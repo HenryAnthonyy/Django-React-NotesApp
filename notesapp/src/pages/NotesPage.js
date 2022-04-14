@@ -22,7 +22,7 @@ const NotesPage = () => {
     let getNote = async() => {
         if (noteID === 'new') return
 
-        let response = await fetch(`/api/notes/${noteID}`)
+        let response = await fetch(`/api/notes/${noteID}/`)
         let data = await response.json()
         setNote(data)
     }
@@ -79,7 +79,6 @@ const NotesPage = () => {
 
     }
 
-    // let note = notes.find(note => note.id === Number(noteID))
 
 
      
