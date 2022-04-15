@@ -42,11 +42,15 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
 
     'api',
-    'rest_framework'
+    'rest_framework',
+
+    "corsheaders",
 ]
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
+
+    "corsheaders.middleware.CorsMiddleware",
 
     'whitenoise.middleware.WhiteNoiseMiddleware',
     
@@ -135,5 +139,7 @@ STATICFILES_DIRS = [ BASE_DIR / 'notesapp/build/static']
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
+
+CORS_ALLOW_ALL_ORIGINS = True 
 #Activate Django-heroku
 django_heroku.settings(locals())
