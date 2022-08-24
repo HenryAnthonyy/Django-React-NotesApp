@@ -1,9 +1,10 @@
-import { Routes, Route } from 'react-router-dom';
+import { Routes,  Route } from 'react-router-dom';
 import './App.css';
 import Header from './components/Header'
 import NotesListPage from './pages/NotesListPage'
 import NotesPage from './pages/NotesPage'
 import { useAppContext } from './context/AppContext';
+
 
 function App() {
 
@@ -12,14 +13,14 @@ function App() {
   return (
     <div className={themeChange ?  'container dark':  'container'}>
       <div className="app">
-      <Header />
-      <Routes>
+        <Header />   
+        <Routes>
 
           <Route path='/' exact element= {<NotesListPage />}/>
           <Route path='/note/:id' element= {<NotesPage />}/>
 
-      </Routes>
-    </div>
+        </Routes>
+      </div>
     </div>
   );
 }

@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/static/css/main.5ba0f94d.css",
-    "main.js": "/static/js/main.66823a22.js",
-    "static/media/light.svg": "/static/media/light.64c5eba2141ab0854ca9f5c2e11fb5ea.svg",
-    "static/media/dark.svg": "/static/media/dark.424a3abbb23ac2b8cb849350bc13844e.svg",
+    "main.js": "/static/js/main.edd8ac7d.js",
+    "static/media/light.svg": "/static/media/light.c7b30907baac5824f5e3dc2912e8de0b.svg",
+    "static/media/dark.svg": "/static/media/dark.3fe88f576d89475da75a2b0830088440.svg",
     "index.html": "/index.html",
-    "static/media/delete.svg": "/static/media/delete.eb8009a912a56efe90caa20e2ec129af.svg",
-    "static/media/add.svg": "/static/media/add.513fa82c4c0442225dbb374680dbb4af.svg",
-    "static/media/chevron-left.svg": "/static/media/chevron-left.4880f1563e4edc6562b2d72fc113c5a5.svg",
+    "static/media/delete.svg": "/static/media/delete.55a245ffe583f92748e4c3cc02567b59.svg",
+    "static/media/add.svg": "/static/media/add.9e9364f77b233a467c09f31d4707b3ed.svg",
+    "static/media/chevron-left.svg": "/static/media/chevron-left.55809936d0c837cb3601242e99c905c6.svg",
     "main.5ba0f94d.css.map": "/static/css/main.5ba0f94d.css.map",
-    "main.66823a22.js.map": "/static/js/main.66823a22.js.map"
+    "main.edd8ac7d.js.map": "/static/js/main.edd8ac7d.js.map"
   },
   "entrypoints": [
     "static/css/main.5ba0f94d.css",
-    "static/js/main.66823a22.js"
+    "static/js/main.edd8ac7d.js"
   ]
 }

@@ -26,7 +26,7 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 SECRET_KEY = 'django-insecure-0m(v--eq&plv#pn6d)3-)e&+qh8vibc5wod&u6kwah0(gr3lj@'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['django-notes-app.herokuapp.com', 'localhost', '127.0.0.1']
 
